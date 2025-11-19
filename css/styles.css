@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/* html */
+html {
+    background-color: #ffffff;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+}
+
+.site-container {
+    margin: 0 auto;
+}
+
+/* header */
+#header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 4%;
+    width: 100%;
+}
+#header-logo-img {
+    height: 50px;
+}
+#header-nav-wrapper {
+    display: flex;
+}
+#header-lang-select-outer {
+    padding: 0px 15px;
+}
+#header-lang-select {
+    background-color: #ffffff;
+    background-image: url(../images/down_arrow.png);
+    background-size: 18px 18px;
+    background-position: right 10px center;
+    border-bottom: solid 5px #38b6ff;
+    cursor: pointer;
+    font-weight: 550;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 45px;
+}
+#header-search-box-outer {
+    padding: 0px 15px;
+}
+#header-search-box {
+    background-color: #ffffff;
+    border: solid 2px #c0c0c0;
+    border-radius: 100vh;
+    padding: 5px 10px;
+}
+#header-search-btn {
+    background-color: #38b6ff;
+    border-radius: 100vh;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+/* site-top */
+#site-top-img {
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url(../images/site_top_img_02.jpg);
+    height: 400px;
+    text-align: center;
+}
+#site-top-title-outer {
+    padding-top: 130.8px;
+    color: #ffffff;
+    font-family: 'Caveat', cursive;
+}
+#site-top-title {
+    font-size: 80px;
+}
+#site-top-subtitle {
+    font-size: 30px;
+}
+
+/* section01 (分類別フレーズまとめ) */
+.section01 {
+    padding: 40px 0;
+}
+.section01-heading {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    border-bottom: solid 8px #38b6ff;
+    max-width: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
+.section01-articles-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#section01-category01-article01 {
+    background-image: url(../images/articles/category01/01.jpg);
+}
+#section01-category01-article02 {
+    background-image: url(../images/articles/category01/02.jpg);
+}
+#section01-category01-article03 {
+    background-image: url(../images/articles/category01/03.jpg);
+}
+.section01-articles {
+    margin: 40px auto;
+    width: 400px;;
+    max-width: 90%;
+    height: 300px;
+    background-color: #ebebeb;
+    background-size: 400px 250px;
+    background-position: bottom;
+    border-radius: 0.5vh;
+}
+.section01-articles:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.section01-articles h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/* section01-category01 (Before School) */
