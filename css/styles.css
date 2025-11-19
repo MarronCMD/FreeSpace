@@ -69,6 +69,7 @@ a {
     background-blend-mode: darken;
     background-color: rgba(0,0,0,0.5);
     background-image: url(../images/site_top_img_02.jpg);
+    background-size: contain;
     height: 400px;
     text-align: center;
 }
