@@ -99,7 +99,7 @@ a {
 }
 .section01-articles-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
 }
 #section01-category01-article01 {
     background-image: url(../images/articles/category01/01.jpg);
