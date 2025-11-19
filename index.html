@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>Pondemonai!</title>
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
-  </head>
-  <body>
-    
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <!-- ress.css -->
+            <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+        <!-- CSS -->
+            <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header id="header" class="site-container">
+            <!-- ロゴIMGを挿入 -->
+            <img id="header-logo-img" src="images/header_logo.png" alt="PONDEMONAI">
+            <nav id="header-nav-wrapper">
+                <!-- 言語切り替え用 折り畳みbtn -->
+                <div id="header-lang-select-outer">
+                    <select id="header-lang-select">
+                        <option value="en">English</option>
+                        <option value="de">German</option>
+                        <option value="fr">French</option>
+                        <option value="ja">Japanese</option>
+                        <option value="zh">Chinese</option>
+                    </select>
+                </div>
+                <!-- 検索ボックス -->
+                <div id="header-search-box-outer">
+                    <form action="index.html" method="post">
+                        <input id="header-search-box" type="search" name="search-box" placeholder="Enter keywords">
+                        <input id="header-search-btn" type="submit" name="submit" value="Search">
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <div id="site-top-img">
+            <div id="site-top-title-outer">
+            <h1 id="site-top-title">EASY JAPANESE in FUDOOKA</h1>
+            <p id="site-top-subtitle">Starting today, you too can become a Fudooka English Master!</p>
+            </div>
+        </div>
+        <div id="section01-category01" class="section01">
+            <h2 class="section01-heading">Before School</h2>
+            <div class="section01-articles-wrapper">
+                <div id="section01-category01-article01" class="section01-articles">
+                    <h3>Greetings</h3>
+                </div>
+                <div id="section01-category01-article02" class="section01-articles">
+                    <h3>Next Class</h3>
+                </div>
+                <div id="section01-category01-article03" class="section01-articles">
+                    <h3>About Homework</h3>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
