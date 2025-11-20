@@ -87,7 +87,7 @@ a {
 #site-top-img {
     background-blend-mode: darken;
     background-color: rgba(0,0,0,0.5);
-    background-image: url(../images/site_top_img_02.jpg);
+    background-image: url(https://raw.githubusercontent.com/MarronCMD/UploadImages/refs/heads/main/images/site_top_img_02.jpg);
     background-size: 100%;
     height: 400px;
     text-align: center;
@@ -181,13 +181,13 @@ a {
 
 /* section01-category01 (Before School) */
 #section01-category01-article01 {
-    background-image: url(../images/articles/category01/01.jpg);
+    background-image: url(https://raw.githubusercontent.com/MarronCMD/UploadImages/refs/heads/main/images/articles/category01/01.jpg);
 }
 #section01-category01-article02 {
-    background-image: url(../images/articles/category01/02.jpg);
+    background-image: url(https://raw.githubusercontent.com/MarronCMD/UploadImages/refs/heads/main/images/articles/category01/02.jpg);
 }
 #section01-category01-article03 {
-    background-image: url(../images/articles/category01/03.jpg);
+    background-image: url(https://raw.githubusercontent.com/MarronCMD/UploadImages/refs/heads/main/images/articles/category01/03.jpg);
 }
 #section01-category01-article04 {
     background-image: url(https://raw.githubusercontent.com/MarronCMD/UploadImages/refs/heads/main/images/articles/category01/04.jpg);
