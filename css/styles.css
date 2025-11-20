@@ -145,7 +145,7 @@ a {
     margin-right: auto;
     margin-left: auto;
 }
-#section00-description {
+.section00-description {
     font-size: 30px;
     font-weight: 600;
 }
