@@ -129,7 +129,10 @@ a {
 #section00 {
     margin: 50px 10%;
     font-family: "DM Sans", sans-serif;
+    width: auto;
     max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
 }
 #section00 h1 {
     font-size: 50px;
